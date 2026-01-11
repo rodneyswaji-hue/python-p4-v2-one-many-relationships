@@ -6,7 +6,7 @@ from app import app
 from models import db, Employee, Review, Onboarding
 
 with app.app_context():
-    # Delete all rows in tables
+    # Delete all rows in tables kdje i
     Employee.query.delete()
     Review.query.delete()
     Onboarding.query.delete()
